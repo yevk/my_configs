@@ -1,8 +1,7 @@
 {
   "version": "1.0",
   "techs": [{
-    {
       "name": "TypeScript",
-    "configFile": "tsconfig.json"
+      "configFile": "tsconfig.json"
   }]
 }
