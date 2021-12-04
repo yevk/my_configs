@@ -3,5 +3,8 @@
   "techs": [{
       "name": "TypeScript",
       "configFile": "tsconfig.json"
+  }, {
+    "name": "Prettier",
+    "configFile": ".prettierrc"
   }]
 }
