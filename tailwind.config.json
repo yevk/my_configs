@@ -1,0 +1,27 @@
+module.exports = {
+  theme: {
+    extend: {
+      colors: {
+        overlay: "rgba(29, 32, 33, 0.8)",
+        glass: "rgb(29, 32, 33)",
+        pencil: "#38393b"
+      },
+      fill: theme => ({
+        none: "none",
+        current: "currentColor",
+        "purple-500": theme("colors.purple.500"),
+        "purple-700": theme("colors.purple.700")
+      })
+    },
+  },
+
+  variants: {
+    extend: {},
+  },
+
+  mode: "jit",
+  purge: ["./src/**/*.svelte", "./src/**/*.html"],
+  darkMode: false, // or 'media' or 'class'
+
+  plugins: [],
+}
