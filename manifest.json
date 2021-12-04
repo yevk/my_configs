@@ -6,5 +6,8 @@
   }, {
     "name": "Prettier",
     "configFile": ".prettierrc"
+  }, {
+    "name": "Tailwind - Svelte",
+    "configFile": "tailwind.config.json"
   }]
 }
